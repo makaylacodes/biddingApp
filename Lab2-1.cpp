@@ -1,10 +1,3 @@
-//============================================================================
-// Name        : Lab2-2.cpp
-// Author      : Your Name
-// Version     : 1.0
-// Copyright   : Copyright © 2017 SNHU COCE
-// Description : Lab 2-2 Up to Speed in C++, Part 2
-//============================================================================
 
 #include <algorithm>
 #include <iostream>
