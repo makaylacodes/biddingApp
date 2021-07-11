@@ -143,7 +143,7 @@ int main(int argc, char* argv[]) {
             break;
         case 2:
             // FIXME (7b): Initialize a timer variable before loading bids
-
+            seconds = clock();
             // FIXME (5): Complete the method call to load the bids
 
             // FIXME (7c): Calculate elapsed time and display result
