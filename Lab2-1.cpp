@@ -3,7 +3,8 @@
 #include <iostream>
 #include <time.h>
 
-// FIXME (1): Reference the CSVParser library
+// FIXED(1): Reference the CSVParser library
+#include "CSVparser.hpp"
 
 using namespace std;
 
