@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <iostream>
 #include <time.h>
+#include <vector>
 
 // FIXED(1): Reference the CSVParser library
 #include "CSVparser.hpp"
@@ -23,6 +24,8 @@ struct Bid {
         amount = 0.0;
     }
 };
+
+vector<Bid> bid();
 
 //============================================================================
 // Static methods used for testing
@@ -68,17 +71,17 @@ Bid getBid() {
  * @param csvPath the path to the CSV file to load
  * @return a container holding all the bids read
  */
-?retval? loadBids(string csvPath) {
-	// FIXME (2): Define a vector data structure to hold a collection of bids.
-
-    ?type? ?variable?;
-
+string loadBids(string csvPath) {
+	// FIXED (2): Define a vector data structure to hold a collection of bids.
+    vector<Bid> bid();
+    
     // initialize the CSV Parser using the given path
     csv::Parser file = csv::Parser(csvPath);
 
 	// loop to read rows of a CSV file
 	for (int i = 0; i < file.rowCount(); i++) {
         // FIXME (3): create a data structure to hold data from each row and add to vector
+        
     }
     return ?variable?;
 }
