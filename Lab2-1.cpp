@@ -147,6 +147,9 @@ int main(int argc, char* argv[]) {
             // FIXME (5): Complete the method call to load the bids
             allBids = loadBids(csvPath);
             // FIXME (7c): Calculate elapsed time and display result
+            seconds = clock() - seconds; // current seconds minus starting seconds
+            cout << "time: " << seconds << "milliseconds\n";
+            cout << "time: " << seconds * 1.0/CLOCKS_PER_SEC << " seconds\n";
             
             break;
         case 3:
