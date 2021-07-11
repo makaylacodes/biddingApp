@@ -145,9 +145,9 @@ int main(int argc, char* argv[]) {
             // FIXME (7b): Initialize a timer variable before loading bids
             seconds = clock();
             // FIXME (5): Complete the method call to load the bids
-
+            allBids = loadBids(csvPath);
             // FIXME (7c): Calculate elapsed time and display result
-
+            
             break;
         case 3:
             // FIXME (6): Loop and display the bids read
