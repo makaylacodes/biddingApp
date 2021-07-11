@@ -81,6 +81,12 @@ vector<Bid> loadBids(string csvPath) {
 	// loop to read rows of a CSV file
 	for (int i = 0; i < file.rowCount(); i++) {
         // FIXME (3): create a data structure to hold data from each row and add to vector
+        Bid bidTemp;
+        bidTemp.title = file[i][0];
+        bidTemp.fund = file[i][8];
+        bidTemp.amount = strToDouble(file[i][4], '$');
+
+        bidInfo.push_back(bidTemp);
 
     }
     return bidInfo;
