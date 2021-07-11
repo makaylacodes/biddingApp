@@ -71,9 +71,9 @@ Bid getBid() {
  * @param csvPath the path to the CSV file to load
  * @return a container holding all the bids read
  */
-string loadBids(string csvPath) {
+vector<Bid> loadBids(string csvPath) {
 	// FIXED (2): Define a vector data structure to hold a collection of bids.
-    vector<Bid> bid();
+    vector<Bid> bidInfo;
     
     // initialize the CSV Parser using the given path
     csv::Parser file = csv::Parser(csvPath);
@@ -81,9 +81,9 @@ string loadBids(string csvPath) {
 	// loop to read rows of a CSV file
 	for (int i = 0; i < file.rowCount(); i++) {
         // FIXME (3): create a data structure to hold data from each row and add to vector
-        
+
     }
-    return ?variable?;
+    return bidInfo;
 }
 
 /**
