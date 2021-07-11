@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
     }
 
     // FIXME (4): Define a vector to hold all the bids
-    ?type? ?variable?;
+    vector<Bid> allBids;
 
     // FIXME (7a): Define a timer variable
     ?type? ?variable?;
