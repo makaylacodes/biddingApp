@@ -124,7 +124,7 @@ int main(int argc, char* argv[]) {
     vector<Bid> allBids;
 
     // FIXME (7a): Define a timer variable
-    ?type? ?variable?;
+    clock_t seconds;
 
     int choice = 0;
     while (choice != 9) {
